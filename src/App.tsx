@@ -83,7 +83,7 @@ const App: React.FC<any> = (): any => {
                         Top 48 NFTs
                     </p>
                 )}
-                <Box sx={{display: 'flex', flexWrap: 'wrap'}}>
+                <Box sx={{display: 'flex', flexWrap: 'wrap'}} justifyContent={"space-evenly"}>
                     {metadata.map((item, index) => {
                         const APIkey = 'QmX38tiHLs1P2A7DPzDDUH1BEsK8JfCavrjiwouw3APjPd'
                         const name = 'El33t.io #' + item.toString()
